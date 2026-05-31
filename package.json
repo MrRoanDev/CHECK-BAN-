@@ -1,29 +1,27 @@
 {
-  "name": "roan-anti-p-checker",
-  "version": "3.0.0",
-  "description": "Interface web ultra-stylisée pour la vérification des bannissements WhatsApp - LA FAMILLE SMK",
+  "name": "mr-roan-anti-p-checker",
+  "version": "1.0.0",
+  "description": "MR ROAN - Vérificateur de bannissement de numéros de téléphone avec interface moderne et thèmes personnalisés",
   "main": "index.html",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "npx serve .",
+    "dev": "npx serve ."
   },
   "keywords": [
+    "phone-checker",
+    "ban-checker",
     "whatsapp",
-    "checker",
-    "ban",
-    "smk",
-    "roan-md",
-    "cybersecurity"
+    "anti-p",
+    "mr-roan"
   ],
   "author": "MR ROAN",
   "license": "MIT",
-  "devDependencies": {
-    "vite": "^5.0.0"
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "dependencies": {},
-  "engines": {
-    "node": ">=26.0.0"
+  "devDependencies": {
+    "serve": "^14.2.0"
   }
 }
