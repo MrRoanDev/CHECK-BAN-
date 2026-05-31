@@ -1,27 +1,44 @@
 {
-  "name": "mr-roan-anti-p-checker",
+  "name": "mr-roan-ban-checker",
   "version": "1.0.0",
-  "description": "MR ROAN - Vérificateur de bannissement de numéros de téléphone avec interface moderne et thèmes personnalisés",
-  "main": "index.html",
+  "description": "Outil de vérification de bannissement WhatsApp - Développé par MR ROAN SMK | Anti-P System",
+  "main": "server.js",
   "scripts": {
-    "start": "npx serve .",
-    "dev": "npx serve ."
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build terminé - Application prête'",
+    "serve": "npm start",
+    "test": "echo 'Aucun test configuré'"
   },
   "keywords": [
-    "phone-checker",
-    "ban-checker",
     "whatsapp",
+    "ban-checker",
     "anti-p",
-    "mr-roan"
+    "mr-roan",
+    "checker",
+    "whatsapp-ban",
+    "security",
+    "verification"
   ],
-  "author": "MR ROAN",
+  "author": "MR ROAN SMK",
   "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
   "repository": {
     "type": "git",
     "url": ""
   },
-  "dependencies": {},
-  "devDependencies": {
-    "serve": "^14.2.0"
-  }
+  "private": false
 }
