@@ -1,0 +1,29 @@
+{
+  "name": "roan-anti-p-checker",
+  "version": "3.0.0",
+  "description": "Interface web ultra-stylisée pour la vérification des bannissements WhatsApp - LA FAMILLE SMK",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "whatsapp",
+    "checker",
+    "ban",
+    "smk",
+    "roan-md",
+    "cybersecurity"
+  ],
+  "author": "MR ROAN",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
